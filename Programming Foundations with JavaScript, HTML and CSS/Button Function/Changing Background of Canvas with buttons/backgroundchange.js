@@ -1,4 +1,4 @@
-function dolime(){
+function doblue(){
   var dd1 = document.getElementById("d1");
   dd1.className = "changetoblue";
 }
