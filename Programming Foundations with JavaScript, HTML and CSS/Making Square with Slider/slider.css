@@ -1,0 +1,33 @@
+h1{
+  color : blue;
+  background-color:magenta;
+  width : 200px;
+  margin-left : 10px;
+}
+canvas{
+  width : 200px;
+  height : auto;
+  border : 2px solid #c3c3c3;
+  margin : 10px;
+}
+#button1{
+  width : 80px;
+  margin-left : 10px;
+  color : magenta;
+  background-color: Blue;
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+#clr{
+  cursor: pointer;
+  border-radius: 8px;
+  margin-left : 30px;
+}
+.p1{
+  color : Red;
+  margin-left : 10px;
+}
