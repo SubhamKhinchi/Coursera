@@ -1,0 +1,33 @@
+h1{
+  color : blue;
+  background-color:magenta;
+  width : 220px;
+}
+#b1{
+  color : Red;
+  width : 400px;
+  margin-left : 40px;
+  font-family : arial;
+}
+canvas{
+  width : auto;
+  height : auto;
+  border : 2px solid blue;
+  //margin : 10px;
+}
+#button1{
+  width : 100px;
+  margin-left : 10px;
+  color : magenta;
+  background-color: Blue;
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+#finput{
+  font-size : 15px;
+  margin-bottom : 30px;
+}

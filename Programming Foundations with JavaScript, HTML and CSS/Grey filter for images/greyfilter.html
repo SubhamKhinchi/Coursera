@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+    <link rel="stylesheet" type="text/css" href="greyfilter.css">
+    <title>
+      my page
+    </title>
+    <h1> Upload Image</h1>
+  </head>
+  <body id="b1">
+    
+    <p>
+        Image will be displayed here :
+      <canvas id="can1">
+      </canvas> <br>
+      File Name : 
+     <input type="file" multiple="false" accept="image/*" id="finput" onchange="upload()">
+      
+      Grey image will be displayed here:
+      <canvas id="can2">
+    </canvas>
+    </p>
+    <p> Press for Grey : 
+      <input type="button" value="make grey" id="button1" onclick="makegrey()">
+    </p>
+    <script src="greyfilter.js"></script>
+  </body>
+</html>
