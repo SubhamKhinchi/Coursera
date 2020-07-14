@@ -1,0 +1,33 @@
+h1{
+  color : blue;
+  text-align: center;
+}
+#b1{
+  color : Red;
+  margin-left : 40px;
+  font-family : arial;
+  background-color:#f0cf7d;
+}
+canvas{
+  width : 500px;
+  height : auto;
+  border : 2px solid blue;
+  margin : 30px;
+}
+#button1{
+  width : 200px;
+  margin-left : 30px;
+  color : white;
+  background-color: Blue;
+  padding: 5px 5px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 8px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+#p1{
+  font-size : 15px;
+  margin-bottom : 20px;
+  margin-left : 30px;
+}

@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js"></script>
+    <link rel="stylesheet" type="text/css" href="backgroundchange.css">
+    <title>
+      Green Screen Project 
+    </title>
+  </head>
+  <body id="b1">
+    <h1> Composite Images </h1>
+    <p id="p1">
+      <canvas id = "fgcan">
+      </canvas>
+      <canvas id = "bgcan">
+      </canvas>
+    </p>
+    <p id="p1">
+      Foreground: <input type = "file"
+        multiple = "false"
+        accept = "image/*"
+        id = "fgFile"
+        onchange = "loadForegroundImage()">
+    
+      <input type = "button" 
+         value = "Create Composite"
+         id ="button1"
+         onclick = "doGreenscreen()">
+    </p>
+    <p id="p1">
+      Background: <input type= "file"
+        id = "bgFile"
+        multiple = "false"
+        accept = "image/*"
+        onchange = "loadBackgroundImage()">
+      <input type = "button"
+        id = "button1"
+        value = "Clear Canvases"
+        onclick = "doClear()">
+    </p>
+    <script src="backgroundchange.js"></script>
+  </body>
+</html>
+         
+ 
+      
+      
+      
+     
+    
