@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" ></script>
+    <link rel="stylesheet" //type="text/css" href="applyfilters.css">
+    <title>
+      My Page
+    </title>
+    <h1>Apply filters to your images</h1>
+  </head>
+  <body id="b1">
+    <canvas id="can1">
+      </canvas>
+    <p id="p1">
+      Upload your Image here:
+      <input type = "file"
+        multiple = "false"
+        accept = "image/*"
+        id = "inputfile"
+        onchange = "loadimage()"
+      >
+    </p>
+    <p id="p1">
+    Apply these availabe filters
+  <br></br>
+  <input type="button" value="Grey Filter" id="button" onclick="greyfilter()">
+  <input type="button" value="Red Filter" id="button" onclick="redfilter()">
+  <input type="button" value="Rainbow" id="button" onclick="rainbowfilter()">
+  <br></br>
+Press here for your original image : <input type="button" value="Original Image" id="resetbutton" onclick="resetimage()">
+    </p>
+    <script src="applyfilters.js"></script>
+  </body>
+</html>
